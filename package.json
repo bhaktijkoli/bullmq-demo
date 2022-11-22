@@ -1,0 +1,14 @@
+{
+  "name": "bullmq-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "queue": "node queue",
+    "worker": "node worker"
+  },
+  "dependencies": {
+    "bullmq": "^3.2.2",
+    "dotenv": "^16.0.3"
+  }
+}
